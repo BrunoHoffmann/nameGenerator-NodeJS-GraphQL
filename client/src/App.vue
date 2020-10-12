@@ -5,7 +5,6 @@
       <br>
       <h6 class="text-secondary">Gerador de nomes utilizando Vue.js, GraphQL e Node</h6>
     </div>
-
     <div id="main">
 			<domain-list></domain-list>
     </div>
