@@ -23,7 +23,7 @@
 					type="text"
 					class="form-control"
 					v-model="description"
-					v-on:keyup.enter="addPrefix(type, description)"
+					v-on:keyup.enter="addItem(type, description)"
 					placeholder="Digite o item">
 				<div class="input-group-append">
 					<button class="btn btn-info" v-on:click="addItem(type, description)">
